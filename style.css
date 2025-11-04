@@ -1,135 +1,110 @@
 body{
-    display: grid;
-    margin: 0 auto;
-    width: fit-content;
-    background-color: hsl(45 100% 96%);
+    background-color: antiquewhite;
 }
-#fond{
-height: 40%;
-    width: 80%;
+#Header{
+    background-color: antiquewhite;
     position: absolute;
-    top:45%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    margin: 0 auto;
-
-    background-image:
-    linear-gradient(to right, hsla(45, 100%, 88%, 1) 1px, transparent 1px),
-    linear-gradient(to bottom, hsla(45, 100%, 88%, 1) 1px, transparent 1px),
-    /* linear-gradient(to left, hsla(45, 100%, 88%, 1) 1px, transparent 1px), */
-    linear-gradient(to top, hsla(45, 100%, 88%, 1) 1px, transparent 1px);
-    background-size: 40px 40px;
-    border-radius: 10px;
-
-}
-#footer{
-    position: absolute;
-    top: 70%;
+    height: 10%;
     width: 100%;
-    height: 30%;
-    left: 0%;
-    text-align: center;
-
-}
-#b1{
-    height: 20%;
-}
-#Taille{
-    position: absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    height: 50px;
-    font-size: large;
-    /* border-radius: 3px; */
-    width: 200px;
-    margin-top: 1rem;
-}
-#Poids{
-    position: absolute;
-    top:60%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    height: 50px;
-    font-size: large;
-    /* border-radius: 3px; */
-    width: 200px;
-    margin-top: 1rem;
-}
-#TTaille{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    position: absolute;
-    left:45%;
-    transform: translate( -50%);
-    top: 10%;
-    margin-top: 1rem;
-}
-#TPoids{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    position: absolute;
-    left:45%;
-    transform: translate( -50%);
-    top: 40%;
-    margin-top: 1rem;
-}
-button{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    position: absolute;
-    left:50%;
-    top: 75%;
-    transform: translate( -50%);
-    background-color: hsla(41, 100%, 50%, 1);
-    border-radius: 3px;
-    border: 1px solid black;
-    /* opacity: 80%; */
-    height: 50px;
-    width: 210px;
-    margin-top: 1rem;
-
-}
-
-button:hover{
-    background-color: hsla(30, 100%, 51%, 1);
-}
-#result{
-    position: absolute;
-    left:50%;
-    transform: translate( -50%);
-    top: 90%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-}
-#title{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 4rem;
-    font-size: x-large;
-}
-#text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#link{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    position: absolute;
-    left:55%;
-    transform: translate( -50%);
-    top: 25%;
-}
-a { 
-    color: hsla(30, 100%, 51%, 1);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-}
-#link a:hover {
-    text-decoration: underline;
-}
-#header{
-    position: absolute;
     top: 0%;
-    width: 100%;
-    height: 30%;
     left: 0%;
+}
+#color0{
+    background-color: rgb(44, 42, 40);
+    width: 5%;
+    height: 100%;
+    left: -5%;
+    position: absolute;
+    transform: skewX(45deg);
+}
+#color1{
+    background-color: cyan ;
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    transform: skewX(45deg);
+}
+#color2{
+    background-color: rgba(92, 248, 1, 0.836);
+    width: 5%;
+    height: 100%;
+    left: 5%;
+    position: absolute;
+    transform: skewX(45deg);
+}
+#color3{
+    background-color: rgb(255, 230, 0);
+    width: 5%;
+    height: 100%;
+    left: 10%;
+    position: absolute;
+    transform: skewX(45deg);
+}
+#color4{
+    background-color: red;
+    width: 5%;
+    height: 100%;
+    left: 15%;
+    position: absolute;
+    transform: skewX(45deg);
+}
+#case1{
+    width: 20%;
+    position: absolute;
+    left:40%;
+    top: 40%;
+}
+#case2{
+    top: 40%;
+    left:60%;
+    width: 20%;
+    position: absolute;
+}
+#case3{
+    top: 40%;
+    width: 20%;
+    position: absolute;
+    left:80%;
+}
+#bord{
+    background-color: rgb(44, 42, 40);
+    width: 100%;
+    left: 0%;
+    height: 10px;
+    position: absolute;
+    top: 90%;
+}
+#bord2{
+    background-color: rgb(44, 42, 40);
+    width: 100%;
+    left: 0%;
+    height: 10px;
+    position: absolute;
+    bottom: 90%;
+}
+#Photo{
+    background-color: rgb(44, 42, 40);
+    width: 60%;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+    position: absolute;
+}
+#Footer{
+    background-color: rgb(44, 42, 40);
+    width: 100%;
+    position: absolute;
+    height: 7%;
+    bottom:0%;
+    left: 0%;
+}
+.bottom{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    color: rgb(44, 42, 40);
+    font-family: Arial, Helvetica, sans-serif;
 }
