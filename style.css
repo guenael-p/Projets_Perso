@@ -85,12 +85,37 @@ body{
 #Photo{
     background-color: rgb(44, 42, 40);
     width: 60%;
-    height: 600px;
+    height: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 2px;
     position: absolute;
+    overflow: hidden; 
+}
+#block{
+    background-color: cyan;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 1000;
+    border-radius: 50px;
+}
+#Balls-container {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Ball {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid antiquewhite;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 #Footer{
     background-color: rgb(44, 42, 40);
@@ -108,3 +133,4 @@ body{
     color: rgb(44, 42, 40);
     font-family: Arial, Helvetica, sans-serif;
 }
+
