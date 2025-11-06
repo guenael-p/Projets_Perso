@@ -40,49 +40,52 @@ body{
     position: absolute;
     transform: skewX(45deg);
 }
-#color4{
+#color4,#blockMenu{
     background-color: red;
     width: 5%;
     height: 100%;
     left: 15%;
     position: absolute;
     transform: skewX(45deg);
+    transition: 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+#text{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#case1,#case2,#case3{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 #case1{
-    width: 20%;
-    position: absolute;
     left:40%;
-    top: 40%;
 }
 #case2{
-    top: 40%;
     left:60%;
-    width: 20%;
-    position: absolute;
 }
 #case3{
-    top: 40%;
-    width: 20%;
-    position: absolute;
     left:80%;
 }
-#bord{
+#bord,#bord2{
     background-color: rgb(44, 42, 40);
     width: 100%;
     left: 0%;
     height: 10px;
     position: absolute;
+    
+}
+#bord{
     top: 90%;
 }
 #bord2{
-    background-color: rgb(44, 42, 40);
-    width: 100%;
-    left: 0%;
-    height: 10px;
-    position: absolute;
     bottom: 90%;
 }
-#Photo{
+#Photo,#Board{
     background-color: rgb(44, 42, 40);
     width: 60%;
     height: 60%;
@@ -93,10 +96,15 @@ body{
     position: absolute;
     overflow: hidden; 
 }
+#Board{
+    z-index: 1000;
+    display: none;
+}
 #block{
     background-color: cyan;
     width: 30px;
     height: 30px;
+    top: -50%;
     transform: translate(-50%,-50%);
     position: absolute;
     z-index: 1000;
